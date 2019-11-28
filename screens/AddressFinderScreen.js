@@ -5,15 +5,7 @@ import { FOREGROUND, THEME } from "../Constants";
 
 export default class AddressFinderScreen extends Component {
   static navigationOptions = {
-    title: "Address Finder",
-    headerStyle: {
-      backgroundColor: FOREGROUND
-    },
-    headerTitleStyle: {
-      fontFamily: "Oswald-Regular",
-      fontSize: 28,
-      alignItems: "center"
-    }
+    title: "Address Finder"
   };
 
   handlePress = route => {

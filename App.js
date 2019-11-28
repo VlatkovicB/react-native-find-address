@@ -36,7 +36,8 @@ export default class App extends React.Component {
         {
           defaultNavigationOptions: {
             headerStyle: {
-              backgroundColor: THEME
+              backgroundColor: THEME,
+              headerTitleStyle: { alignSelf: "center" }
             }
           },
           initialRouteName: "home"
