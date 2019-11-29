@@ -4,6 +4,7 @@ import MapView from "react-native-maps";
 import { Icon } from "react-native-elements";
 import { THEME } from "../Constants";
 import { connect } from "react-redux";
+import * as actions from "../actions";
 
 class ViewAddressScreen extends Component {
   static navigationOptions = {
@@ -15,12 +16,19 @@ class ViewAddressScreen extends Component {
 
     this.state = {
       region: this.props.region,
-      bookmarkIcon: false
+      buttonPressed: false,
+      address: this.props.region.address
     };
   }
 
   handlePress = () => {
-    this.setState({ bookmarkIcon: !this.state.bookmarkIcon });
+    this.props.addBookmark(
+      {
+        location: this.state.region,
+        address: this.state.address
+      },
+      () => this.props.navigation.navigate("bookmarks")
+    );
   };
 
   render() {
@@ -30,10 +38,14 @@ class ViewAddressScreen extends Component {
         <View style={styles.buttonContainer}>
           <Icon
             underlayColor={"rgba(0,0,0,0)"}
-            name={this.state.bookmarkIcon ? "add-circle-outline" : "add-circle"}
+            name={
+              this.state.buttonPressed ? "add-circle-outline" : "add-circle"
+            }
             color={THEME}
             size={60}
-            onPress={() => this.handlePress()}
+            onPress={() => this.handlePress(this.state.region.id)}
+            onPressIn={() => this.setState({ buttonPressed: true })}
+            onPressOut={() => this.setState({ buttonPressed: false })}
           />
         </View>
       </View>
@@ -42,10 +54,10 @@ class ViewAddressScreen extends Component {
 }
 
 const mapStateToProps = state => {
-  return { region: state.address };
+  return { region: state.location };
 };
 
-export default connect(mapStateToProps)(ViewAddressScreen);
+export default connect(mapStateToProps, actions)(ViewAddressScreen);
 
 const styles = StyleSheet.create({
   container: {

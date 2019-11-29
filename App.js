@@ -22,8 +22,10 @@ export default class App extends React.Component {
 
   async componentDidMount() {
     await Font.loadAsync({
-      "Oswald-Regular": require("./assets/fonts/Oswald-Regular.ttf")
+      "Oswald-Regular": require("./assets/fonts/Oswald-Regular.ttf"),
+      "Oswald-Bold": require("./assets/fonts/Oswald-Bold.ttf")
     });
+
     this.setState({ loaded: true });
   }
 

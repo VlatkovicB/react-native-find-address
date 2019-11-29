@@ -7,6 +7,10 @@ export const PLACEHOLDER = "#92BCCB";
 
 // FONTS
 export const OSWALD_REGULAR = "Oswald-Regular";
+export const OSWALD_BOLD = "Oswald-Bold";
 
 // TYPES
-export const FIND_ADDRESS = "find_address";
+export const FIND_ADDRESS = "FIND_ADDRESS";
+
+export const ADD_BOOKMARK = "ADD_BOOKMARK";
+export const REMOVE_BOOKMARK = "REMOVE_BOOKMARK";

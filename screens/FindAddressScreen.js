@@ -29,9 +29,9 @@ class FindAddressScreen extends Component {
     this.state = {
       address: {
         address: "",
-        city: "",
-        state: "",
-        postal: ""
+        city: "Beach Haven",
+        state: "NJ",
+        postal: "08008"
       },
       invalidAddress: false,
       invalidCity: false,

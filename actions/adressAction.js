@@ -20,8 +20,7 @@ export const findAddress = (address, callback = null) => async dispatch => {
   try {
     const url = buildUrl(address);
     let { data } = await axios.get(url);
-    console.log(url);
-    dispatch({ type: FIND_ADDRESS, payload: data });
+    dispatch({ type: FIND_ADDRESS, payload: { data, address } });
     callback();
   } catch (e) {
     console.log(e);
