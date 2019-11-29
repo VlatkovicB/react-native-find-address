@@ -8,8 +8,18 @@ import {
   KeyboardAvoidingView
 } from "react-native";
 import { Button } from "react-native-elements";
+import {
+  BACKGROUND,
+  OSWALD_REGULAR,
+  PLACEHOLDER,
+  THEME,
+  ERROR
+} from "../Constants";
 
 class FindAddressScreen extends Component {
+  static navigationOptions = {
+    title: "Find Address"
+  };
   constructor(props) {
     super(props);
 
@@ -64,48 +74,72 @@ class FindAddressScreen extends Component {
   render() {
     return (
       <View style={styles.container}>
-        <View style={styles.header}>
-          <Text style={styles.headerText}>Find address</Text>
-        </View>
-        <KeyboardAvoidingView style={{ flex: 2 }} behavior="padding" enabled>
-          <TextInput
-            style={styles.input}
-            placeholder="Address"
-            onChangeText={text => this.handleChange("address", text)}
-          />
-          {this.state.invalidAddress && (
-            <Text style={styles.error}>Address is required</Text>
-          )}
-          <TextInput
-            style={styles.input}
-            placeholder="City"
-            onChangeText={text => this.handleChange("city", text)}
-          />
-          {this.state.invalidCity && (
-            <Text style={styles.error}>City is required</Text>
-          )}
-          <TextInput
-            style={styles.input}
-            placeholder="State"
-            onChangeText={text => this.handleChange("state", text)}
-          />
-          {this.state.invalidState && (
-            <Text style={styles.error}>State is required</Text>
-          )}
-          <TextInput
-            style={styles.input}
-            placeholder="Postal"
-            onChangeText={text => this.handleChange("postal", text)}
-          />
-          {this.state.invalidPostal && (
-            <Text style={styles.error}>Postal is required</Text>
-          )}
+        <KeyboardAvoidingView
+          style={styles.inputContainer}
+          behavior="padding"
+          enabled
+        >
+          <View style={styles.individualInputContainer}>
+            <TextInput
+              style={[
+                styles.input,
+                { borderColor: this.state.invalidAddress ? ERROR : THEME }
+              ]}
+              placeholder="Address"
+              placeholderTextColor={PLACEHOLDER}
+              onChangeText={text => this.handleChange("address", text)}
+            />
+            {this.state.invalidAddress && (
+              <Text style={styles.error}>This field is mandatory</Text>
+            )}
+          </View>
+          <View style={styles.individualInputContainer}>
+            <TextInput
+              style={[
+                styles.input,
+                { borderColor: this.state.invalidCity ? ERROR : THEME }
+              ]}
+              placeholder="City"
+              placeholderTextColor={PLACEHOLDER}
+              onChangeText={text => this.handleChange("city", text)}
+            />
+            {this.state.invalidCity && (
+              <Text style={styles.error}>This field is mandatory</Text>
+            )}
+          </View>
+          <View style={styles.individualInputContainer}>
+            <TextInput
+              style={[
+                styles.input,
+                { borderColor: this.state.invalidState ? ERROR : THEME }
+              ]}
+              placeholder="State"
+              placeholderTextColor={PLACEHOLDER}
+              onChangeText={text => this.handleChange("state", text)}
+            />
+            {this.state.invalidState && (
+              <Text style={styles.error}>This field is mandatory</Text>
+            )}
+          </View>
+          <View style={styles.individualInputContainer}>
+            <TextInput
+              style={[
+                styles.input,
+                { borderColor: this.state.invalidPostal ? ERROR : THEME }
+              ]}
+              placeholder="Postal"
+              placeholderTextColor={PLACEHOLDER}
+              onChangeText={text => this.handleChange("postal", text)}
+            />
+            {this.state.invalidPostal && (
+              <Text style={styles.error}>This field is mandatory</Text>
+            )}
+          </View>
         </KeyboardAvoidingView>
         <View style={styles.buttonContainer}>
           <Button
             buttonStyle={styles.buttonStyle}
-            titleStyle={styles.titleStyle}
-            raised
+            titleStyle={styles.buttonTitleStyle}
             title="Search"
             onPress={() => this.handleSearch()}
           />
@@ -119,42 +153,44 @@ export default FindAddressScreen;
 
 const styles = StyleSheet.create({
   container: {
+    backgroundColor: BACKGROUND,
     flex: 1,
-    justifyContent: "center",
-    marginHorizontal: 20
+    justifyContent: "center"
   },
   input: {
-    padding: 5,
+    color: THEME,
+    fontFamily: OSWALD_REGULAR,
     paddingHorizontal: 20,
-    borderColor: "#414141",
-    borderWidth: 1,
-    marginVertical: 5,
-    borderRadius: 3
-  },
-  header: {
-    flex: 1,
-    justifyContent: "center",
-    alignItems: "center"
-  },
-  headerText: {
-    fontSize: 32,
-    fontWeight: "500"
+    borderBottomWidth: 1,
+    // marginVertical: 15,
+    fontSize: 16
   },
   buttonStyle: {
-    backgroundColor: "#a3a3a3",
-    borderRadius: 3
+    backgroundColor: THEME,
+    borderRadius: 4
   },
-  titleStyle: {
-    color: "#4e4e4e"
+  buttonTitleStyle: {
+    fontFamily: OSWALD_REGULAR,
+    fontSize: 18,
+    color: BACKGROUND
   },
   buttonContainer: {
-    flex: 1,
-    marginHorizontal: 50,
+    marginHorizontal: 25,
     justifyContent: "flex-end",
     bottom: 50
   },
   error: {
-    color: "red",
-    fontSize: 12
+    color: ERROR,
+    fontSize: 11,
+    fontFamily: OSWALD_REGULAR,
+    paddingHorizontal: 20
+  },
+  inputContainer: {
+    flex: 2,
+    justifyContent: "center",
+    marginHorizontal: 20
+  },
+  individualInputContainer: {
+    marginVertical: 14
   }
 });

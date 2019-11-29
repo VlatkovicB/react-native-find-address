@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Text, StyleSheet, View } from "react-native";
 import { Button } from "react-native-elements";
-import { FOREGROUND, THEME } from "../Constants";
+import { FOREGROUND, THEME, OSWALD_REGULAR } from "../Constants";
 
 export default class AddressFinderScreen extends Component {
   static navigationOptions = {
@@ -44,12 +44,12 @@ const styles = StyleSheet.create({
 
   buttonStyle: {
     borderRadius: 3,
-    marginVertical: 15,
+    marginVertical: 16,
     backgroundColor: FOREGROUND
   },
   titleStyle: {
     color: THEME,
-    fontFamily: "Oswald-Regular"
+    fontFamily: OSWALD_REGULAR
   },
   buttonContainer: {
     position: "absolute",
