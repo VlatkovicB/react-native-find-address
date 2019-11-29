@@ -5,6 +5,9 @@ import { AppLoading } from "expo";
 import * as Font from "expo-font";
 import { Icon } from "react-native-elements";
 
+import { Provider } from "react-redux";
+import store from "./store";
+
 import AddressFinderScreen from "./screens/AddressFinderScreen";
 import ViewAddressScreen from "./screens/ViewAddressScreen";
 import BookmarksScreen from "./screens/BookmarksScreen";
@@ -56,7 +59,11 @@ export default class App extends React.Component {
       )
     );
     if (this.state.loaded) {
-      return <MainNavigator />;
+      return (
+        <Provider store={store}>
+          <MainNavigator />
+        </Provider>
+      );
     }
     return <AppLoading />;
   }

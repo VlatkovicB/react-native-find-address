@@ -15,22 +15,27 @@ import {
   THEME,
   ERROR
 } from "../Constants";
+import { connect } from "react-redux";
+import * as actions from "../actions";
 
 class FindAddressScreen extends Component {
   static navigationOptions = {
     title: "Find Address"
   };
+
   constructor(props) {
     super(props);
 
     this.state = {
-      address: "",
+      address: {
+        address: "",
+        city: "",
+        state: "",
+        postal: ""
+      },
       invalidAddress: false,
-      city: "",
       invalidCity: false,
-      state: "",
       invalidState: false,
-      postal: "",
       invalidPostal: false
     };
   }
@@ -39,32 +44,38 @@ class FindAddressScreen extends Component {
     const invalid = "invalid" + name[0].toUpperCase() + name.slice(1);
 
     this.setState(() => ({
-      [name]: text,
+      address: {
+        ...this.state.address,
+        [name]: text
+      },
       [invalid]: false
     }));
   };
 
   handleSearch = () => {
     if (this.checkIfEmpty()) {
+      this.props.findAddress(this.state.address, () => {
+        this.props.navigation.navigate("view");
+      });
     }
   };
 
   checkIfEmpty = () => {
     let proceed = true;
 
-    if (_.isEmpty(this.state.address)) {
+    if (_.isEmpty(this.state.address.address)) {
       this.setState({ invalidAddress: true });
       proceed = false;
     }
-    if (_.isEmpty(this.state.city)) {
+    if (_.isEmpty(this.state.address.city)) {
       this.setState({ invalidCity: true });
       proceed = false;
     }
-    if (_.isEmpty(this.state.postal)) {
+    if (_.isEmpty(this.state.address.postal)) {
       this.setState({ invalidPostal: true });
       proceed = false;
     }
-    if (_.isEmpty(this.state.state)) {
+    if (_.isEmpty(this.state.address.state)) {
       this.setState({ invalidState: true });
       proceed = false;
     }
@@ -149,7 +160,7 @@ class FindAddressScreen extends Component {
   }
 }
 
-export default FindAddressScreen;
+export default connect(null, actions)(FindAddressScreen);
 
 const styles = StyleSheet.create({
   container: {
@@ -162,7 +173,6 @@ const styles = StyleSheet.create({
     fontFamily: OSWALD_REGULAR,
     paddingHorizontal: 20,
     borderBottomWidth: 1,
-    // marginVertical: 15,
     fontSize: 16
   },
   buttonStyle: {
