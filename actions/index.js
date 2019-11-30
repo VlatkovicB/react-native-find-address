@@ -1,2 +1,1 @@
-export * from "./adressAction";
-export * from "./bookmarkAction";
+export * from "./addressActions";

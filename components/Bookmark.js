@@ -8,28 +8,36 @@ class Bookmark extends Component {
   constructor(props) {
     super(props);
 
-    const { address, city, state, postal, id } = this.props.location.address;
     const {
+      address,
+      city,
+      state,
+      postal,
+      key,
       latitude,
       longitude,
       latitudeDelta,
       longitudeDelta
     } = this.props.location;
-    
+
     this.state = {
       address,
       city,
       state,
       postal,
-      id
+      key,
+      latitude,
+      longitude,
+      latitudeDelta,
+      longitudeDelta
     };
   }
 
   handleView = () => {
     this.props.viewAddress();
   };
-  handleDelete = id => {
-    this.props.deleteAddress(id);
+  handleDelete = () => {
+    this.props.deleteAddress(this.state.key);
   };
 
   render() {
@@ -51,7 +59,7 @@ class Bookmark extends Component {
           <View>
             <TouchableOpacity
               activeOpacity={0.5}
-              onPress={() => this.handleDelete(this.state.id)}
+              onPress={() => this.handleDelete()}
             >
               <Image
                 source={require("../assets/garbage.png")}

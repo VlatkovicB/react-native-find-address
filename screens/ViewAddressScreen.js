@@ -14,18 +14,22 @@ class ViewAddressScreen extends Component {
   constructor(props) {
     super(props);
 
+    const {
+      longitude,
+      latitude,
+      latitudeDelta,
+      longitudeDelta
+    } = this.props.location;
     this.state = {
-      region: this.props.region,
-      buttonPressed: false,
-      address: this.props.region.address
+      region: { longitude, latitude, latitudeDelta, longitudeDelta },
+      buttonPressed: false
     };
   }
 
   handlePress = () => {
     this.props.addBookmark(
       {
-        location: this.state.region,
-        address: this.state.address
+        location: this.props.location
       },
       () => this.props.navigation.navigate("bookmarks")
     );
@@ -54,7 +58,7 @@ class ViewAddressScreen extends Component {
 }
 
 const mapStateToProps = state => {
-  return { region: state.location };
+  return { location: state.bookmarks };
 };
 
 export default connect(mapStateToProps, actions)(ViewAddressScreen);

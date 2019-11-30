@@ -1,8 +1,6 @@
 import { combineReducers } from "redux";
-import location from "./addressReducer";
-import bookmarks from "./bookmarkReducer";
+import bookmarks from "./addressReducers";
 
 export default combineReducers({
-  location,
   bookmarks
 });

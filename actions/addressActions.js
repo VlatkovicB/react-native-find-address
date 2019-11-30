@@ -1,10 +1,9 @@
-import axios from "axios";
+import { ADD_BOOKMARK, REMOVE_BOOKMARK, FIND_ADDRESS } from "../Constants";
 import qs from "qs";
-import { FIND_ADDRESS } from "../Constants";
+import axios from "axios";
 
 const ROOT_URL =
   "https://sampleserver1.arcgisonline.com/ArcGIS/rest/services/Locators/ESRI_Geocode_USA/GeocodeServer/findAddressCandidates?";
-
 const buildUrl = address => {
   const query = qs.stringify({
     Address: address.address,
@@ -25,4 +24,13 @@ export const findAddress = (address, callback = null) => async dispatch => {
   } catch (e) {
     console.log(e);
   }
+};
+
+export const addBookmark = (bookmark, callback = null) => dispatch => {
+  dispatch({ type: ADD_BOOKMARK, bookmark });
+  callback();
+};
+
+export const removeBookmark = id => dispatch => {
+  dispatch({ type: REMOVE_BOOKMARK, id });
 };
