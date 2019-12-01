@@ -12,13 +12,14 @@ import {
   BACKGROUND,
   FOREGROUND,
   MODAL_POPUP_BACKGROUND,
-  MODAL_BACKGROUND,
   OSWALD_REGULAR,
-  OSWALD_BOLD
+  OSWALD_BOLD,
+  ERROR,
+  THEME
 } from "../Constants";
 import { connect } from "react-redux";
 import * as actions from "../actions";
-import { Button } from "react-native-elements";
+import ModalButton from "../components/ModalButton";
 
 class BookmarksScreen extends Component {
   static navigationOptions = {
@@ -57,17 +58,19 @@ class BookmarksScreen extends Component {
                 </Text>
               </View>
               <View style={styles.buttonContainer}>
-                <Button
-                  style={styles.modalButton}
+                <ModalButton
+                  buttonStyle={[styles.buttonStyle, { backgroundColor: ERROR }]}
                   title="NO"
-                  onPress={() => {
+                  textStyle={styles.textStyle}
+                  handlePress={() => {
                     this.setState({ modalVisible: false });
                   }}
                 />
-                <Button
-                  style={styles.modalButton}
+                <ModalButton
+                  buttonStyle={[styles.buttonStyle, { backgroundColor: THEME }]}
+                  textStyle={styles.textStyle}
                   title="YES"
-                  onPress={this.handleDelete}
+                  handlePress={this.handleDelete}
                 />
               </View>
             </View>
@@ -117,7 +120,11 @@ const styles = StyleSheet.create({
     height: 150,
     borderRadius: 3
   },
-  modalTextContainer: { justifyContent: "center", flex: 1 },
+  modalTextContainer: {
+    flex: 1,
+    justifyContent: "center",
+    width: "80%"
+  },
   modalText: {
     fontFamily: OSWALD_REGULAR,
     textAlign: "center",
@@ -128,10 +135,18 @@ const styles = StyleSheet.create({
     flexDirection: "row",
     justifyContent: "space-around"
   },
-  modalButton: {
+  buttonStyle: {
+    justifyContent: "center",
+    flex: 1,
+    borderRadius: 3,
+    padding: 10
+  },
+  textStyle: {
+    height: 30,
+    marginHorizontal: "10%",
+    textAlign: "center",
     flex: 1,
     fontFamily: OSWALD_BOLD,
-    justifyContent: 'space-around',
-    alignSelf: "stretch"
+    color: FOREGROUND
   }
 });
