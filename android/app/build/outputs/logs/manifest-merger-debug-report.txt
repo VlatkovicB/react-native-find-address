@@ -1,0 +1,524 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:1:1-38:12
+INJECTED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:1:1-38:12
+INJECTED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:1:1-38:12
+INJECTED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:1:1-38:12
+MERGED from [:react-native-maps] D:\ReactNativePractice\find-address\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-12:12
+MERGED from [:react-native-vector-icons] D:\ReactNativePractice\find-address\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-screens] D:\ReactNativePractice\find-address\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-reanimated] D:\ReactNativePractice\find-address\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-gesture-handler] D:\ReactNativePractice\find-address\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.react:react-native:0.59.10] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.59.10.aar\78d82339e22b766844366adbf5417f0a\AndroidManifest.xml:2:1-13:12
+MERGED from [:expo-permissions] D:\ReactNativePractice\find-address\node_modules\expo-permissions\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.0.aar\07986dddbec1f0b41f086876a7eadc31\AndroidManifest.xml:17:1-22:12
+MERGED from [:unimodules-react-native-adapter] D:\ReactNativePractice\find-address\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-app-loader-provider] D:\ReactNativePractice\find-address\node_modules\expo-app-loader-provider\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-constants] D:\ReactNativePractice\find-address\node_modules\expo-constants\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-file-system] D:\ReactNativePractice\find-address\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-30:12
+MERGED from [:expo-font] D:\ReactNativePractice\find-address\node_modules\expo-font\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-keep-awake] D:\ReactNativePractice\find-address\node_modules\expo-keep-awake\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-linear-gradient] D:\ReactNativePractice\find-address\node_modules\expo-linear-gradient\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-location] D:\ReactNativePractice\find-address\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-21:12
+MERGED from [:expo-sqlite] D:\ReactNativePractice\find-address\node_modules\expo-sqlite\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:expo-web-browser] D:\ReactNativePractice\find-address\node_modules\expo-web-browser\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-barcode-scanner-interface] D:\ReactNativePractice\find-address\node_modules\unimodules-barcode-scanner-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-camera-interface] D:\ReactNativePractice\find-address\node_modules\unimodules-camera-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-constants-interface] D:\ReactNativePractice\find-address\node_modules\unimodules-constants-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-face-detector-interface] D:\ReactNativePractice\find-address\node_modules\unimodules-face-detector-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-file-system-interface] D:\ReactNativePractice\find-address\node_modules\unimodules-file-system-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-font-interface] D:\ReactNativePractice\find-address\node_modules\unimodules-font-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-permissions-interface] D:\ReactNativePractice\find-address\node_modules\unimodules-permissions-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-task-manager-interface] D:\ReactNativePractice\find-address\node_modules\unimodules-task-manager-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-core] D:\ReactNativePractice\find-address\node_modules\@unimodules\core\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-image-loader-interface] D:\ReactNativePractice\find-address\node_modules\unimodules-image-loader-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [:unimodules-sensors-interface] D:\ReactNativePractice\find-address\node_modules\unimodules-sensors-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.1.0.aar\c5cc6392494ca07841436535582e4fd8\AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\d0fb5bdddef7c0f00e5eca82707599c7\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:16.1.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.1.0.aar\280330b2054cca54fd68bb474c339032\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-android-maps-utils-0.5.aar\6a1b85fc3b0ebc43cb6a009b5eaf32ae\AndroidManifest.xml:2:1-13:12
+MERGED from [androidx.transition:transition:1.1.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\transition-1.1.0.aar\afe4bbed04740a4b7040e28080d27b28\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\browser-1.0.0.aar\2033a88818cbf9e81d19bbdd9687b155\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\a7fff4247ba97e49260d2108fd8624d5\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\f858061be3dbe441da84b9a697dfba84\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.2.0.aar\cd77723d0a3d87f778a7b2b3beeaabda\AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\c05d23ddf078b37fc1849c92d23679b6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\ffa606d7f30f453bc1a61058d1dc3381\AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\502d19e1be98e049fff6f964616da70e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.0.0.aar\dd99f4dd010d917f36261ae84288f8f3\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\080efe074c7265b639dc8f2f6d134e5d\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\093f8fec377f6c26301f7f6029679b4c\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.0.0.aar\7892da95a3dcd4771f6702da5a64f71e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\a3b8ebe2ad8473fe252441ecf99e82a4\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\b34608a18dbe3a072cb00a9c6d245800\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\09440ca95cba10b7e34775924b0e0cba\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\965e25791acf0e17b47a14bf59c9d6ef\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\4492920c149c961dfbf46c26099a23cb\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\098ddfe7a3a6d79653e6052c8c82829e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\1dd38e9df511b2af9eb25a6ebeb64d4e\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\213fb44080374abcb655769ad5521a25\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\30e6e33487ef8b336c501679618925c7\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\core-1.0.1.aar\3d9252961d542f378a4ead138233434b\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\ee69acffc5e53628e85bfdbe1ba407d7\AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\d645638833f1fd15e3dc256bbb782cf5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\ebe2cebb8117fbab075b9361e7da6df5\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\2c44dfc2b07e677925697fa1ae330a9b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\ec4fbc0b2b6463f7aca2ea66e6b7a567\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\7669ea4b64c053f2e5357f1d0a358dc2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\d89fe3a43226cbfe79b2d1131429095a\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\286236637b7101ad7ec82d314d65b03f\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\0da7f41459d4be2deeb16b979171eb9b\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\eada4046dfdad031539e48d76623f569\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\258e6b46d245d9ac12cce287448fb512\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\f98eee75eceede249fdfc4dd3731fdf1\AndroidManifest.xml:2:1-11:12
+MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-fresco-1.10.0.aar\4122b0d91cdb57367e725509ddd1a819\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.10.0.aar\70220ed41847ba12aee13c65018b402d\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-drawee-1.10.0.aar\474eebafd86f803b9c1833e33496dd82\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-imagepipeline-1.10.0.aar\058c6de8941db4dd5433a4929cb1834d\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-imagepipeline-base-1.10.0.aar\5579feda4e9cbec90d2f1615aed06bbe\AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\f406cd3333719f38514dc2a99b9dc7d0\AndroidManifest.xml:2:1-13:12
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\5eca7dcd06d83339c5ce6f6a26cf9d01\AndroidManifest.xml:2:1-30:12
+MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-fbcore-1.10.0.aar\c405c5d7c98ab2f0d5bb70aa31272cf4\AndroidManifest.xml:2:1-9:12
+INJECTED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:1:1-38:12
+INJECTED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:1:1-38:12
+INJECTED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:1:1-38:12
+	package
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:1:70-96
+		INJECTED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:1:1-38:12
+		INJECTED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:1:1-38:12
+		INJECTED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:3:3-65
+MERGED from [:react-native-maps] D:\ReactNativePractice\find-address\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-67
+MERGED from [:react-native-maps] D:\ReactNativePractice\find-address\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:9:5-67
+MERGED from [:expo-file-system] D:\ReactNativePractice\find-address\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-67
+MERGED from [:expo-file-system] D:\ReactNativePractice\find-address\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.1.0.aar\c5cc6392494ca07841436535582e4fd8\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.1.0.aar\c5cc6392494ca07841436535582e4fd8\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:3:20-62
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:4:3-75
+	android:name
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:4:20-73
+uses-permission#android.permission.MANAGE_DOCUMENTS
+ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:7:3-73
+	android:name
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:7:20-70
+uses-permission#android.permission.READ_INTERNAL_STORAGE
+ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:8:3-78
+	android:name
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:8:20-75
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:9:3-73
+	android:name
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:9:20-70
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:10:3-72
+	android:name
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:10:20-69
+uses-permission#android.permission.VIBRATE
+ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:11:3-64
+	android:name
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:11:20-61
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:12:3-78
+	android:name
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:12:20-75
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:15:3-79
+MERGED from [:react-native-maps] D:\ReactNativePractice\find-address\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-81
+MERGED from [:react-native-maps] D:\ReactNativePractice\find-address\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:10:5-81
+MERGED from [:expo-location] D:\ReactNativePractice\find-address\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-81
+MERGED from [:expo-location] D:\ReactNativePractice\find-address\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-81
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\5eca7dcd06d83339c5ce6f6a26cf9d01\AndroidManifest.xml:12:5-81
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\5eca7dcd06d83339c5ce6f6a26cf9d01\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:15:20-76
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:16:3-77
+MERGED from [:expo-location] D:\ReactNativePractice\find-address\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-79
+MERGED from [:expo-location] D:\ReactNativePractice\find-address\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\5eca7dcd06d83339c5ce6f6a26cf9d01\AndroidManifest.xml:14:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\5eca7dcd06d83339c5ce6f6a26cf9d01\AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:16:20-74
+uses-permission#android.permission.CAMERA
+ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:17:3-63
+	android:name
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:17:20-60
+uses-permission#android.permission.READ_CONTACTS
+ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:18:3-70
+	android:name
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:18:20-67
+uses-permission#android.permission.READ_CALENDAR
+ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:19:3-70
+	android:name
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:19:20-67
+uses-permission#android.permission.WRITE_CALENDAR
+ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:20:3-71
+	android:name
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:20:20-68
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:21:3-78
+MERGED from [:expo-file-system] D:\ReactNativePractice\find-address\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-80
+MERGED from [:expo-file-system] D:\ReactNativePractice\find-address\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:5-80
+	android:name
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:21:20-75
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:22:3-69
+	android:name
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:22:20-66
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:23:3-79
+MERGED from [:expo-file-system] D:\ReactNativePractice\find-address\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-81
+MERGED from [:expo-file-system] D:\ReactNativePractice\find-address\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:23:20-76
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:24:3-71
+	android:name
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:24:20-68
+application
+ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:27:3-36:17
+MERGED from [com.facebook.react:react-native:0.59.10] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.59.10.aar\78d82339e22b766844366adbf5417f0a\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.react:react-native:0.59.10] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.59.10.aar\78d82339e22b766844366adbf5417f0a\AndroidManifest.xml:11:5-20
+MERGED from [:expo-file-system] D:\ReactNativePractice\find-address\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-28:19
+MERGED from [:expo-file-system] D:\ReactNativePractice\find-address\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-28:19
+MERGED from [:expo-location] D:\ReactNativePractice\find-address\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-19:19
+MERGED from [:expo-location] D:\ReactNativePractice\find-address\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-19:19
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.1.0.aar\c5cc6392494ca07841436535582e4fd8\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.1.0.aar\c5cc6392494ca07841436535582e4fd8\AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\d0fb5bdddef7c0f00e5eca82707599c7\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\d0fb5bdddef7c0f00e5eca82707599c7\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:16.1.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.1.0.aar\280330b2054cca54fd68bb474c339032\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.1.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.1.0.aar\280330b2054cca54fd68bb474c339032\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-android-maps-utils-0.5.aar\6a1b85fc3b0ebc43cb6a009b5eaf32ae\AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-android-maps-utils-0.5.aar\6a1b85fc3b0ebc43cb6a009b5eaf32ae\AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\a7fff4247ba97e49260d2108fd8624d5\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\a7fff4247ba97e49260d2108fd8624d5\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\f858061be3dbe441da84b9a697dfba84\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\f858061be3dbe441da84b9a697dfba84\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.2.0.aar\cd77723d0a3d87f778a7b2b3beeaabda\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.2.0.aar\cd77723d0a3d87f778a7b2b3beeaabda\AndroidManifest.xml:22:5-26:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\ffa606d7f30f453bc1a61058d1dc3381\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\ffa606d7f30f453bc1a61058d1dc3381\AndroidManifest.xml:10:5-20
+MERGED from [androidx.core:core:1.0.1] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\core-1.0.1.aar\3d9252961d542f378a4ead138233434b\AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\core-1.0.1.aar\3d9252961d542f378a4ead138233434b\AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\ee69acffc5e53628e85bfdbe1ba407d7\AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\ee69acffc5e53628e85bfdbe1ba407d7\AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\f98eee75eceede249fdfc4dd3731fdf1\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\f98eee75eceede249fdfc4dd3731fdf1\AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\f406cd3333719f38514dc2a99b9dc7d0\AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\f406cd3333719f38514dc2a99b9dc7d0\AndroidManifest.xml:11:5-20
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\5eca7dcd06d83339c5ce6f6a26cf9d01\AndroidManifest.xml:18:5-28:19
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\5eca7dcd06d83339c5ce6f6a26cf9d01\AndroidManifest.xml:18:5-28:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.0.1] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\core-1.0.1.aar\3d9252961d542f378a4ead138233434b\AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:27:48-80
+	android:roundIcon
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:27:116-161
+	android:icon
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:27:81-115
+	android:allowBackup
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:27:162-189
+	android:theme
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:27:190-221
+	android:name
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:27:16-47
+activity#com.find_address.MainActivity
+ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:28:5-33:16
+	android:label
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:28:44-76
+	android:windowSoftInputMode
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:28:148-190
+	android:configChanges
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:28:77-147
+	android:name
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:28:15-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:29:7-32:23
+action#android.intent.action.MAIN
+ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:30:9-61
+	android:name
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:30:17-58
+category#android.intent.category.LAUNCHER
+ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:31:9-69
+	android:name
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:31:19-66
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:34:5-82
+	android:name
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:34:15-79
+meta-data#com.google.android.geo.API_KEY
+ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:35:5-119
+	android:value
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:35:62-117
+	android:name
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml:35:16-61
+uses-sdk
+INJECTED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml
+MERGED from [:react-native-maps] D:\ReactNativePractice\find-address\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-maps] D:\ReactNativePractice\find-address\node_modules\react-native-maps\lib\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] D:\ReactNativePractice\find-address\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] D:\ReactNativePractice\find-address\node_modules\react-native-vector-icons\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] D:\ReactNativePractice\find-address\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-screens] D:\ReactNativePractice\find-address\node_modules\react-native-screens\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] D:\ReactNativePractice\find-address\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-reanimated] D:\ReactNativePractice\find-address\node_modules\react-native-reanimated\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] D:\ReactNativePractice\find-address\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-gesture-handler] D:\ReactNativePractice\find-address\node_modules\react-native-gesture-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.59.10] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.59.10.aar\78d82339e22b766844366adbf5417f0a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.react:react-native:0.59.10] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-react-native-0.59.10.aar\78d82339e22b766844366adbf5417f0a\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-permissions] D:\ReactNativePractice\find-address\node_modules\expo-permissions\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-permissions] D:\ReactNativePractice\find-address\node_modules\expo-permissions\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.0.aar\07986dddbec1f0b41f086876a7eadc31\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\appcompat-1.0.0.aar\07986dddbec1f0b41f086876a7eadc31\AndroidManifest.xml:20:5-44
+MERGED from [:unimodules-react-native-adapter] D:\ReactNativePractice\find-address\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-react-native-adapter] D:\ReactNativePractice\find-address\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-app-loader-provider] D:\ReactNativePractice\find-address\node_modules\expo-app-loader-provider\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-app-loader-provider] D:\ReactNativePractice\find-address\node_modules\expo-app-loader-provider\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-constants] D:\ReactNativePractice\find-address\node_modules\expo-constants\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-constants] D:\ReactNativePractice\find-address\node_modules\expo-constants\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-file-system] D:\ReactNativePractice\find-address\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [:expo-file-system] D:\ReactNativePractice\find-address\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:8:5-10:41
+MERGED from [:expo-font] D:\ReactNativePractice\find-address\node_modules\expo-font\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-font] D:\ReactNativePractice\find-address\node_modules\expo-font\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-keep-awake] D:\ReactNativePractice\find-address\node_modules\expo-keep-awake\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-keep-awake] D:\ReactNativePractice\find-address\node_modules\expo-keep-awake\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-linear-gradient] D:\ReactNativePractice\find-address\node_modules\expo-linear-gradient\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-linear-gradient] D:\ReactNativePractice\find-address\node_modules\expo-linear-gradient\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-location] D:\ReactNativePractice\find-address\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-location] D:\ReactNativePractice\find-address\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-sqlite] D:\ReactNativePractice\find-address\node_modules\expo-sqlite\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-sqlite] D:\ReactNativePractice\find-address\node_modules\expo-sqlite\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-web-browser] D:\ReactNativePractice\find-address\node_modules\expo-web-browser\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:expo-web-browser] D:\ReactNativePractice\find-address\node_modules\expo-web-browser\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-barcode-scanner-interface] D:\ReactNativePractice\find-address\node_modules\unimodules-barcode-scanner-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-barcode-scanner-interface] D:\ReactNativePractice\find-address\node_modules\unimodules-barcode-scanner-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-camera-interface] D:\ReactNativePractice\find-address\node_modules\unimodules-camera-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-camera-interface] D:\ReactNativePractice\find-address\node_modules\unimodules-camera-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-constants-interface] D:\ReactNativePractice\find-address\node_modules\unimodules-constants-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-constants-interface] D:\ReactNativePractice\find-address\node_modules\unimodules-constants-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-face-detector-interface] D:\ReactNativePractice\find-address\node_modules\unimodules-face-detector-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-face-detector-interface] D:\ReactNativePractice\find-address\node_modules\unimodules-face-detector-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-file-system-interface] D:\ReactNativePractice\find-address\node_modules\unimodules-file-system-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-file-system-interface] D:\ReactNativePractice\find-address\node_modules\unimodules-file-system-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-font-interface] D:\ReactNativePractice\find-address\node_modules\unimodules-font-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-font-interface] D:\ReactNativePractice\find-address\node_modules\unimodules-font-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-permissions-interface] D:\ReactNativePractice\find-address\node_modules\unimodules-permissions-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-permissions-interface] D:\ReactNativePractice\find-address\node_modules\unimodules-permissions-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-task-manager-interface] D:\ReactNativePractice\find-address\node_modules\unimodules-task-manager-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-task-manager-interface] D:\ReactNativePractice\find-address\node_modules\unimodules-task-manager-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-core] D:\ReactNativePractice\find-address\node_modules\@unimodules\core\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-core] D:\ReactNativePractice\find-address\node_modules\@unimodules\core\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-image-loader-interface] D:\ReactNativePractice\find-address\node_modules\unimodules-image-loader-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-image-loader-interface] D:\ReactNativePractice\find-address\node_modules\unimodules-image-loader-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-sensors-interface] D:\ReactNativePractice\find-address\node_modules\unimodules-sensors-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:unimodules-sensors-interface] D:\ReactNativePractice\find-address\node_modules\unimodules-sensors-interface\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.1.0.aar\c5cc6392494ca07841436535582e4fd8\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.1.0.aar\c5cc6392494ca07841436535582e4fd8\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\d0fb5bdddef7c0f00e5eca82707599c7\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-location-16.0.0.aar\d0fb5bdddef7c0f00e5eca82707599c7\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.1.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.1.0.aar\280330b2054cca54fd68bb474c339032\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.1.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.1.0.aar\280330b2054cca54fd68bb474c339032\AndroidManifest.xml:20:5-44
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-android-maps-utils-0.5.aar\6a1b85fc3b0ebc43cb6a009b5eaf32ae\AndroidManifest.xml:5:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-android-maps-utils-0.5.aar\6a1b85fc3b0ebc43cb6a009b5eaf32ae\AndroidManifest.xml:5:5-43
+MERGED from [androidx.transition:transition:1.1.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\transition-1.1.0.aar\afe4bbed04740a4b7040e28080d27b28\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.1.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\transition-1.1.0.aar\afe4bbed04740a4b7040e28080d27b28\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\browser-1.0.0.aar\2033a88818cbf9e81d19bbdd9687b155\AndroidManifest.xml:20:5-44
+MERGED from [androidx.browser:browser:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\browser-1.0.0.aar\2033a88818cbf9e81d19bbdd9687b155\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\a7fff4247ba97e49260d2108fd8624d5\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-tasks-16.0.1.aar\a7fff4247ba97e49260d2108fd8624d5\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\f858061be3dbe441da84b9a697dfba84\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\f858061be3dbe441da84b9a697dfba84\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.2.0.aar\cd77723d0a3d87f778a7b2b3beeaabda\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.2.0.aar\cd77723d0a3d87f778a7b2b3beeaabda\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\c05d23ddf078b37fc1849c92d23679b6\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\legacy-support-v4-1.0.0.aar\c05d23ddf078b37fc1849c92d23679b6\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\ffa606d7f30f453bc1a61058d1dc3381\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-glide-4.9.0.aar\ffa606d7f30f453bc1a61058d1dc3381\AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\502d19e1be98e049fff6f964616da70e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\fragment-1.0.0.aar\502d19e1be98e049fff6f964616da70e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.0.0.aar\dd99f4dd010d917f36261ae84288f8f3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\vectordrawable-animated-1.0.0.aar\dd99f4dd010d917f36261ae84288f8f3\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\080efe074c7265b639dc8f2f6d134e5d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\legacy-support-core-ui-1.0.0.aar\080efe074c7265b639dc8f2f6d134e5d\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\093f8fec377f6c26301f7f6029679b4c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\legacy-support-core-utils-1.0.0.aar\093f8fec377f6c26301f7f6029679b4c\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.0.0.aar\7892da95a3dcd4771f6702da5a64f71e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\vectordrawable-1.0.0.aar\7892da95a3dcd4771f6702da5a64f71e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\a3b8ebe2ad8473fe252441ecf99e82a4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\loader-1.0.0.aar\a3b8ebe2ad8473fe252441ecf99e82a4\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\b34608a18dbe3a072cb00a9c6d245800\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\media-1.0.0.aar\b34608a18dbe3a072cb00a9c6d245800\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\09440ca95cba10b7e34775924b0e0cba\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\viewpager-1.0.0.aar\09440ca95cba10b7e34775924b0e0cba\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\965e25791acf0e17b47a14bf59c9d6ef\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\coordinatorlayout-1.0.0.aar\965e25791acf0e17b47a14bf59c9d6ef\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\4492920c149c961dfbf46c26099a23cb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\drawerlayout-1.0.0.aar\4492920c149c961dfbf46c26099a23cb\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\098ddfe7a3a6d79653e6052c8c82829e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\slidingpanelayout-1.0.0.aar\098ddfe7a3a6d79653e6052c8c82829e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\1dd38e9df511b2af9eb25a6ebeb64d4e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\customview-1.0.0.aar\1dd38e9df511b2af9eb25a6ebeb64d4e\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\213fb44080374abcb655769ad5521a25\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\swiperefreshlayout-1.0.0.aar\213fb44080374abcb655769ad5521a25\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\30e6e33487ef8b336c501679618925c7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\asynclayoutinflater-1.0.0.aar\30e6e33487ef8b336c501679618925c7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\core-1.0.1.aar\3d9252961d542f378a4ead138233434b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\core-1.0.1.aar\3d9252961d542f378a4ead138233434b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\ee69acffc5e53628e85bfdbe1ba407d7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\versionedparcelable-1.0.0.aar\ee69acffc5e53628e85bfdbe1ba407d7\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\d645638833f1fd15e3dc256bbb782cf5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\cursoradapter-1.0.0.aar\d645638833f1fd15e3dc256bbb782cf5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\ebe2cebb8117fbab075b9361e7da6df5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\documentfile-1.0.0.aar\ebe2cebb8117fbab075b9361e7da6df5\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\2c44dfc2b07e677925697fa1ae330a9b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\localbroadcastmanager-1.0.0.aar\2c44dfc2b07e677925697fa1ae330a9b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\ec4fbc0b2b6463f7aca2ea66e6b7a567\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\print-1.0.0.aar\ec4fbc0b2b6463f7aca2ea66e6b7a567\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\7669ea4b64c053f2e5357f1d0a358dc2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\lifecycle-viewmodel-2.0.0.aar\7669ea4b64c053f2e5357f1d0a358dc2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\d89fe3a43226cbfe79b2d1131429095a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\interpolator-1.0.0.aar\d89fe3a43226cbfe79b2d1131429095a\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\286236637b7101ad7ec82d314d65b03f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\lifecycle-runtime-2.0.0.aar\286236637b7101ad7ec82d314d65b03f\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\0da7f41459d4be2deeb16b979171eb9b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-2.0.0.aar\0da7f41459d4be2deeb16b979171eb9b\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\eada4046dfdad031539e48d76623f569\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\lifecycle-livedata-core-2.0.0.aar\eada4046dfdad031539e48d76623f569\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\258e6b46d245d9ac12cce287448fb512\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\core-runtime-2.0.0.aar\258e6b46d245d9ac12cce287448fb512\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\f98eee75eceede249fdfc4dd3731fdf1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-gifdecoder-4.9.0.aar\f98eee75eceede249fdfc4dd3731fdf1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-fresco-1.10.0.aar\4122b0d91cdb57367e725509ddd1a819\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:1.10.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-fresco-1.10.0.aar\4122b0d91cdb57367e725509ddd1a819\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.10.0.aar\70220ed41847ba12aee13c65018b402d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:1.10.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\imagepipeline-okhttp3-1.10.0.aar\70220ed41847ba12aee13c65018b402d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-drawee-1.10.0.aar\474eebafd86f803b9c1833e33496dd82\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:1.10.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-drawee-1.10.0.aar\474eebafd86f803b9c1833e33496dd82\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-imagepipeline-1.10.0.aar\058c6de8941db4dd5433a4929cb1834d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:1.10.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-imagepipeline-1.10.0.aar\058c6de8941db4dd5433a4929cb1834d\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-imagepipeline-base-1.10.0.aar\5579feda4e9cbec90d2f1615aed06bbe\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:1.10.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-imagepipeline-base-1.10.0.aar\5579feda4e9cbec90d2f1615aed06bbe\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\f406cd3333719f38514dc2a99b9dc7d0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.6.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\soloader-0.6.0.aar\f406cd3333719f38514dc2a99b9dc7d0\AndroidManifest.xml:7:5-9:41
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\5eca7dcd06d83339c5ce6f6a26cf9d01\AndroidManifest.xml:8:5-10:41
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\5eca7dcd06d83339c5ce6f6a26cf9d01\AndroidManifest.xml:8:5-10:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-fbcore-1.10.0.aar\c405c5d7c98ab2f0d5bb70aa31272cf4\AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:1.10.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-fbcore-1.10.0.aar\c405c5d7c98ab2f0d5bb70aa31272cf4\AndroidManifest.xml:5:5-7:41
+INJECTED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml
+INJECTED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml
+		ADDED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml
+		INJECTED from D:\ReactNativePractice\find-address\android\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.STORAGE
+ADDED from [:expo-file-system] D:\ReactNativePractice\find-address\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-66
+	android:name
+		ADDED from [:expo-file-system] D:\ReactNativePractice\find-address\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:22-63
+provider#expo.modules.filesystem.FileSystemFileProvider
+ADDED from [:expo-file-system] D:\ReactNativePractice\find-address\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-27:20
+	android:grantUriPermissions
+		ADDED from [:expo-file-system] D:\ReactNativePractice\find-address\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:13-47
+	android:authorities
+		ADDED from [:expo-file-system] D:\ReactNativePractice\find-address\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-74
+	android:exported
+		ADDED from [:expo-file-system] D:\ReactNativePractice\find-address\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-37
+	tools:replace
+		ADDED from [:expo-file-system] D:\ReactNativePractice\find-address\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-48
+	android:name
+		ADDED from [:expo-file-system] D:\ReactNativePractice\find-address\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-74
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:expo-file-system] D:\ReactNativePractice\find-address\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-26:70
+	android:resource
+		ADDED from [:expo-file-system] D:\ReactNativePractice\find-address\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:17-67
+	android:name
+		ADDED from [:expo-file-system] D:\ReactNativePractice\find-address\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:17-67
+uses-permission#android.permission.FOREGROUND_SERVICE
+ADDED from [:expo-location] D:\ReactNativePractice\find-address\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-77
+	android:name
+		ADDED from [:expo-location] D:\ReactNativePractice\find-address\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-74
+service#expo.modules.location.services.LocationTaskService
+ADDED from [:expo-location] D:\ReactNativePractice\find-address\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-18:40
+	android:exported
+		ADDED from [:expo-location] D:\ReactNativePractice\find-address\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:expo-location] D:\ReactNativePractice\find-address\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-78
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.1.0.aar\c5cc6392494ca07841436535582e4fd8\AndroidManifest.xml:23:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\5eca7dcd06d83339c5ce6f6a26cf9d01\AndroidManifest.xml:13:5-79
+MERGED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\5eca7dcd06d83339c5ce6f6a26cf9d01\AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.1.0.aar\c5cc6392494ca07841436535582e4fd8\AndroidManifest.xml:23:22-76
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.1.0.aar\c5cc6392494ca07841436535582e4fd8\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.1.0.aar\c5cc6392494ca07841436535582e4fd8\AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.1.0.aar\c5cc6392494ca07841436535582e4fd8\AndroidManifest.xml:28:9-32
+uses-library#org.apache.http.legacy
+ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.1.0.aar\c5cc6392494ca07841436535582e4fd8\AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.1.0.aar\c5cc6392494ca07841436535582e4fd8\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:16.1.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-maps-16.1.0.aar\c5cc6392494ca07841436535582e4fd8\AndroidManifest.xml:34:13-50
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.1.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.1.0.aar\280330b2054cca54fd68bb474c339032\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.1.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.1.0.aar\280330b2054cca54fd68bb474c339032\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.1.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.1.0.aar\280330b2054cca54fd68bb474c339032\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.1.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-base-16.1.0.aar\280330b2054cca54fd68bb474c339032\AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-android-maps-utils-0.5.aar\6a1b85fc3b0ebc43cb6a009b5eaf32ae\AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.2.0.aar\cd77723d0a3d87f778a7b2b3beeaabda\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-play-services-basement-16.2.0.aar\cd77723d0a3d87f778a7b2b3beeaabda\AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-android-maps-utils-0.5.aar\6a1b85fc3b0ebc43cb6a009b5eaf32ae\AndroidManifest.xml:10:13-66
+	android:name
+		ADDED from [com.google.maps.android:android-maps-utils:0.5] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-android-maps-utils-0.5.aar\6a1b85fc3b0ebc43cb6a009b5eaf32ae\AndroidManifest.xml:9:13-58
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\5eca7dcd06d83339c5ce6f6a26cf9d01\AndroidManifest.xml:15:5-98
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\5eca7dcd06d83339c5ce6f6a26cf9d01\AndroidManifest.xml:15:22-95
+uses-permission#com.google.android.gms.permission.ACTIVITY_RECOGNITION
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\5eca7dcd06d83339c5ce6f6a26cf9d01\AndroidManifest.xml:16:5-94
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\5eca7dcd06d83339c5ce6f6a26cf9d01\AndroidManifest.xml:16:22-91
+service#io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\5eca7dcd06d83339c5ce6f6a26cf9d01\AndroidManifest.xml:19:9-21:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\5eca7dcd06d83339c5ce6f6a26cf9d01\AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\5eca7dcd06d83339c5ce6f6a26cf9d01\AndroidManifest.xml:20:13-132
+service#io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\5eca7dcd06d83339c5ce6f6a26cf9d01\AndroidManifest.xml:22:9-24:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\5eca7dcd06d83339c5ce6f6a26cf9d01\AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\5eca7dcd06d83339c5ce6f6a26cf9d01\AndroidManifest.xml:23:13-127
+service#io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService
+ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\5eca7dcd06d83339c5ce6f6a26cf9d01\AndroidManifest.xml:25:9-27:40
+	android:exported
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\5eca7dcd06d83339c5ce6f6a26cf9d01\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [io.nlopez.smartlocation:library:3.2.11] C:\Users\b.vlatkovic.VEGA\.gradle\caches\transforms-1\files-1.1\jetified-library-3.2.11.aar\5eca7dcd06d83339c5ce6f6a26cf9d01\AndroidManifest.xml:26:13-120

@@ -1,7 +1,6 @@
 import React from "react";
 import { createStackNavigator } from "react-navigation-stack";
 import { createAppContainer } from "react-navigation";
-import { AppLoading } from "expo";
 import * as Font from "expo-font";
 import { Icon } from "react-native-elements";
 
@@ -60,13 +59,10 @@ export default class App extends React.Component {
         }
       )
     );
-    if (this.state.loaded) {
-      return (
-        <Provider store={store}>
-          <MainNavigator />
-        </Provider>
-      );
-    }
-    return <AppLoading />;
+    return (
+      <Provider store={store}>
+        <MainNavigator />
+      </Provider>
+    );
   }
 }

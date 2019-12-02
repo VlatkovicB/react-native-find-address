@@ -28,14 +28,14 @@ class FindAddressScreen extends Component {
 
     this.state = {
       address: {
-        // address: "",
-        // city: "",
-        // state: "",
-        // postal: ""
-        address: "21 Coral ST",
-        city: "Beach Haven",
-        state: "NJ",
-        postal: "08008"
+        address: "",
+        city: "",
+        state: "",
+        postal: ""
+        // address: "21 Coral ST",
+        // city: "Beach Haven",
+        // state: "NJ",
+        // postal: "08008"
       },
       invalidAddress: false,
       invalidCity: false,
@@ -98,7 +98,7 @@ class FindAddressScreen extends Component {
       <View style={styles.container}>
         <KeyboardAvoidingView
           style={styles.inputContainer}
-          behavior="padding"
+          behavior="height"
           enabled
         >
           <View style={styles.individualInputContainer}>
