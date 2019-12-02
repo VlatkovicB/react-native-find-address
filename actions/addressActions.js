@@ -1,4 +1,9 @@
-import { ADD_BOOKMARK, REMOVE_BOOKMARK, FIND_ADDRESS } from "../Constants";
+import {
+  ADD_BOOKMARK,
+  REMOVE_BOOKMARK,
+  FIND_ADDRESS,
+  VIEW_BOOKMARK
+} from "../Constants";
 import qs from "qs";
 import axios from "axios";
 
@@ -33,4 +38,9 @@ export const addBookmark = (bookmark, callback = null) => dispatch => {
 
 export const removeBookmark = id => dispatch => {
   dispatch({ type: REMOVE_BOOKMARK, id });
+};
+
+export const viewBookmark = (bookmark, callback = null) => dispatch => {
+  dispatch({ type: VIEW_BOOKMARK, bookmark });
+  callback();
 };

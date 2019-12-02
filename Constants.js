@@ -12,6 +12,6 @@ export const OSWALD_BOLD = "Oswald-Bold";
 
 // TYPES
 export const FIND_ADDRESS = "FIND_ADDRESS";
-
+export const VIEW_BOOKMARK = "VIEW_BOOKMARK";
 export const ADD_BOOKMARK = "ADD_BOOKMARK";
 export const REMOVE_BOOKMARK = "REMOVE_BOOKMARK";

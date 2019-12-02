@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Text, StyleSheet, View, Image } from "react-native";
 import { OSWALD_REGULAR, THEME, OSWALD_BOLD } from "../Constants";
 import { TouchableOpacity } from "react-native-gesture-handler";
-import { connect } from "react-redux";
 
 class Bookmark extends Component {
   constructor(props) {
@@ -34,7 +33,7 @@ class Bookmark extends Component {
   }
 
   handleView = () => {
-    this.props.viewAddress();
+    this.props.viewAddress(this.state);
   };
   handleDelete = () => {
     this.props.deleteAddress(this.state.key);
@@ -86,7 +85,7 @@ class Bookmark extends Component {
   }
 }
 
-export default connect()(Bookmark);
+export default Bookmark;
 
 const styles = StyleSheet.create({
   container: {

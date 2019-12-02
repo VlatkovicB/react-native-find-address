@@ -28,6 +28,10 @@ class FindAddressScreen extends Component {
 
     this.state = {
       address: {
+        // address: "",
+        // city: "",
+        // state: "",
+        // postal: ""
         address: "21 Coral ST",
         city: "Beach Haven",
         state: "NJ",
@@ -82,6 +86,13 @@ class FindAddressScreen extends Component {
     return proceed;
   };
 
+  mandatory = required => {
+    if (required) {
+      return <Text style={styles.error}>This field is mandatory</Text>;
+    }
+    return <Text style={[styles.error, { color: BACKGROUND }]}>no error</Text>;
+  };
+
   render() {
     return (
       <View style={styles.container}>
@@ -100,9 +111,7 @@ class FindAddressScreen extends Component {
               placeholderTextColor={PLACEHOLDER}
               onChangeText={text => this.handleChange("address", text)}
             />
-            {this.state.invalidAddress && (
-              <Text style={styles.error}>This field is mandatory</Text>
-            )}
+            {this.mandatory(this.state.invalidAddress)}
           </View>
           <View style={styles.individualInputContainer}>
             <TextInput
@@ -114,9 +123,7 @@ class FindAddressScreen extends Component {
               placeholderTextColor={PLACEHOLDER}
               onChangeText={text => this.handleChange("city", text)}
             />
-            {this.state.invalidCity && (
-              <Text style={styles.error}>This field is mandatory</Text>
-            )}
+            {this.mandatory(this.state.invalidCity)}
           </View>
           <View style={styles.individualInputContainer}>
             <TextInput
@@ -128,9 +135,7 @@ class FindAddressScreen extends Component {
               placeholderTextColor={PLACEHOLDER}
               onChangeText={text => this.handleChange("state", text)}
             />
-            {this.state.invalidState && (
-              <Text style={styles.error}>This field is mandatory</Text>
-            )}
+            {this.mandatory(this.state.invalidState)}
           </View>
           <View style={styles.individualInputContainer}>
             <TextInput
@@ -142,9 +147,7 @@ class FindAddressScreen extends Component {
               placeholderTextColor={PLACEHOLDER}
               onChangeText={text => this.handleChange("postal", text)}
             />
-            {this.state.invalidPostal && (
-              <Text style={styles.error}>This field is mandatory</Text>
-            )}
+            {this.mandatory(this.state.invalidPostal)}
           </View>
         </KeyboardAvoidingView>
         <View style={styles.buttonContainer}>
@@ -201,6 +204,6 @@ const styles = StyleSheet.create({
     marginHorizontal: 20
   },
   individualInputContainer: {
-    marginVertical: 14
+    marginVertical: "2%"
   }
 });

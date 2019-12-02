@@ -29,17 +29,21 @@ class BookmarksScreen extends Component {
     super(props);
     this.state = {
       location: this.props.locations,
-      modalVisible: false
+      modalVisible: false,
+      key: ""
     };
   }
 
-  handleView = id => {
-    console.log("VIEW");
+  handleView = item => {
+    this.props.viewBookmark(item, () => {
+      this.props.navigation.navigate("view");
+    });
   };
 
-  handleDelete = id => {
+  handleDelete = () => {
     this.setState({ modalVisible: false });
-    this.props.removeBookmark(id);
+    this.props.removeBookmark(this.state.key);
+    this.setState({ key: "" });
   };
 
   render() {
@@ -78,14 +82,14 @@ class BookmarksScreen extends Component {
         </Modal>
         <SafeAreaView style={styles.container}>
           <FlatList
-            data={this.state.location}
+            data={this.props.locations}
             renderItem={({ item }) => (
               <Bookmark
                 location={item}
-                deleteAddress={() => {
-                  this.setState({ modalVisible: true });
-                }}
-                viewAddress={this.handleView}
+                deleteAddress={() =>
+                  this.setState({ modalVisible: true, key: item.key })
+                }
+                viewAddress={() => this.handleView(item)}
               />
             )}
           />
@@ -118,7 +122,9 @@ const styles = StyleSheet.create({
     backgroundColor: FOREGROUND,
     width: "80%",
     height: 150,
-    borderRadius: 3
+    borderRadius: 3,
+    justifyContent: "center",
+    alignItems: "center"
   },
   modalTextContainer: {
     flex: 1,
@@ -133,20 +139,23 @@ const styles = StyleSheet.create({
   buttonContainer: {
     flex: 1,
     flexDirection: "row",
-    justifyContent: "space-around"
+    alignItems: "center",
+    justifyContent: "space-evenly",
+    width: "100%"
   },
   buttonStyle: {
-    justifyContent: "center",
-    flex: 1,
+    flexGrow: 1,
+    flexShrink: 1,
+    flexBasis: "30%",
     borderRadius: 3,
-    padding: 10
+    height: "46%",
+    maxWidth: "30%"
   },
   textStyle: {
-    height: 30,
-    marginHorizontal: "10%",
-    textAlign: "center",
     flex: 1,
     fontFamily: OSWALD_BOLD,
-    color: FOREGROUND
+    color: FOREGROUND,
+    textAlignVertical: "center",
+    textAlign: "center"
   }
 });
