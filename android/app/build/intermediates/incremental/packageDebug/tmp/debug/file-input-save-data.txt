@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Dec 02 14:10:56 CET 2019
+#Mon Dec 02 15:15:10 CET 2019
 56.path=lib/x86/libc++_shared.so
 5.base=D\:\\ReactNativePractice\\find-address\\android\\app\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\0
 42.base=D\:\\ReactNativePractice\\find-address\\android\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1
